@@ -1,0 +1,20 @@
+
+$colorPrincipal:rgb(216, 182, 94); //color del body secciones 
+$colorSecundario: goldenrod;   //color letras 
+$colorTerciario:purple; //color header y footer 
+
+
+
+
+// extend
+%flex{
+    display: flex;
+    justify-content: center;
+}
+
+// mixin
+@mixin flex ($flex, $justify ){
+display: $flex;
+justify-content:$justify ;
+
+}

@@ -1,0 +1,116 @@
+@media screen and (max-width: 1115px) {
+	header {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		padding: 15px 10px 15px 10px;
+		z-index: 3;
+		img {
+			height: 95px;
+			width: 90px;
+		}
+		nav {
+			ul {
+				list-style: none;
+				display: flex;
+				margin: 2px;
+				padding: 5px;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	}
+	.galeria {
+		display: grid;
+		grid-auto-rows: 200px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.Item-Galeria {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+	.Item-8 {
+		grid-column: span 2;
+	}
+	footer {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	nav {
+		ul {
+			flex-direction: column;
+		}
+	}
+	.tarjetas {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.AlignmentMat {
+		.Alig-contenedor {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.AligContenedor-img {
+		justify-content: center;
+	}
+}
+@media screen and ( max-width: 577px) {
+	header {
+		img {
+			height: 90px;
+			width: 80px;
+		}
+		h1 {
+			font-size: 30px;
+		}
+	}
+	.galeria {
+		display: grid;
+		grid-auto-rows: 200px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.Item-Galeria {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+	.hero p{
+		font-size: 10px;
+	}
+	.Teacher-Training img {
+		width: 80%;
+		height: 80%;
+	}
+
+	
+	.Tarjeta .Back h3 {
+		font-size: 15px;
+		margin-top: 20px;
+		letter-spacing: 3px; 
+		
+	}
+
+	.Tarjeta .Back p{
+		
+		font-size: 14px;
+		 
+	}
+	.horario img:hover {
+		-webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		transform: scale(1.2);
+		transition: 3s;
+	}
+	
+	@media screen and ( max-width: 800px) {
+
+.horario img{
+	width: 80%;
+}
+
+	}
+	
+}

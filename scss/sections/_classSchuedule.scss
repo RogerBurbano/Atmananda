@@ -1,0 +1,47 @@
+.classSchedule {
+	background-image: url(../img/buda.png);
+	// max-height: 850px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	// background-attachment: fixed;
+	margin-bottom: 50px;
+
+	.parrafo {
+		font-size: 25px;
+		margin: 30px;
+		color: antiquewhite;
+	}
+
+	p {
+		font-family: 'Instrument Serif', serif;
+		font-size: 25px;
+		color: antiquewhite;
+		text-align: center;
+
+	}
+}
+
+
+
+.horario {
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.horario img {
+	border-radius: 50px;
+	margin-bottom: 70px;
+}
+
+.horario img:hover {
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+	transition: 5s;
+}
+
+body {
+	background-color: purple;
+}
