@@ -16,6 +16,12 @@ a {
 body {
   background-color: #d8b65e; }
 
+.addres {
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px; }
+
 header {
   display: flex;
   justify-content: space-between;
